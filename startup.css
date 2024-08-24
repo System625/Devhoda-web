@@ -84,6 +84,20 @@ body {
     top: 60px;
 }
 
+.body-1 .idea {
+    position: relative;
+    left: 300px;
+    width: 50px;
+}
+
+.hack {
+    display: flex;
+    align-items: center;
+}
+.hack img {
+    width: 50px;
+}
+
 .hero-body-head {
     font-size: 32px;
     font-weight: 700;
@@ -105,7 +119,7 @@ body {
     font-family: "Unica One", sans-serif;
 }
 .hero-timer .sig-span {
-    font-size: 36px;
+    font-size: 42px;
 }
 .hero-timer .less-span {
     font-size: 12px;
@@ -124,6 +138,70 @@ body {
 }
 .body-2 .image-2 {
     width: 600px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+    .hero-body {
+        flex-direction: column;
+    }
+    .body-1 {
+        margin-bottom: 20%;
+        top: 20px;
+    }
+    .body-2 {
+        left: 0;
+    }
+    .body-2 .image-1 {
+        width: 350px;
+    }
+    .body-2 .image-2 {
+        width: 350px;
+    }
+    .body-1 .idea {
+        left: 80px;
+        width: 25px;
+    }
+    .hero-head {
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 1%;
+    }
+    .hero-body-head {
+        font-size: 16px;
+        line-height: 13px;
+    }
+    .hero-body-para {
+        font-size: 13px;
+    }
+    .hero-timer {
+        justify-content: center;
+        text-align: center;
+    }
+    .hack {
+        justify-content: center;
+    }
+    .hack img {
+        width: 30px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+    .body-2 {
+        position: relative;
+        right: 0;
+        left: 10px;
+    }
+    .body-2 .image-1 {
+        position: absolute;
+        width: 350px;
+    }
+    .body-2 .image-2 {
+        width: 350px;
+    }
 }
 
 
@@ -219,4 +297,15 @@ body {
 .copy-right {
     margin-top: 5%;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+        padding-bottom: 15%;
+    }
+    .copy-right {
+        padding-bottom: 15%;
+    }
 }
