@@ -204,6 +204,178 @@ body {
     }
 }
 
+/* The Big Idea */
+
+.section-2 {
+    padding: 5% 0;
+    border-bottom: 1px solid dimgray;
+}
+
+.big-idea {
+    width: 85%;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-idea .idea-text {
+    flex-basis: 50%;
+}
+
+.idea-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.head-2 {
+    color: #D434FE;
+}
+
+.idea-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+@media (max-width: 768px) {
+    .big-idea {
+        flex-direction: column;
+    }
+    .big-idea .idea-image img {
+        width: 300px;
+        margin-bottom: 20%;
+    }
+    .idea-text {
+        text-align: center;
+    }
+}
+
+/* Judging Criteria */
+
+.section-4 {
+    padding: 5% 0;
+    border-bottom: 1px solid dimgray;
+    background-color: #150E2A;
+}
+
+.judge {
+    width: 85%;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.judge-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.judge-image .analysis {
+    width: 600px;
+}
+
+.judge-para {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.judge-para span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.judge-para p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media (max-width: 768px) {
+    .judge {
+        flex-direction: column;
+    }
+    .judge-image .analysis {
+        width: 300px;
+    }
+    .judge-text {
+        text-align: center;
+    }
+}
+
+/* FAQ */
+
+.section-5 {
+    padding: 5% 0;
+    border-bottom: 1px solid dimgray;
+    background-color: #150E2A; 
+}
+
+.faq {
+    width: 85%;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.faq-image .man {
+    width: 600px;
+}
+
+.faq-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 43%;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px solid #D434FE;
+    width: 100%;
+}
+.question span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.faq-para {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.faq-bold {
+    font-weight: 700;
+}
+
+.fa-plus {
+    color: #D434FE;
+}
+
+@media (max-width: 768px) {
+    .faq {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .faq-text h2{
+        text-align: center;
+    }
+    .faq-para {
+        text-align: center;
+    }
+    .faq-image .man {
+        width: 300px;
+    }
+}
 
 /* Footer */
 .section-10 {
