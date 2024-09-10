@@ -425,6 +425,7 @@ body {
 .timeline {
     position: relative;
     margin-top: 40px;
+    
 }
 
 .timeline::before {
@@ -443,12 +444,17 @@ body {
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
 }
 
 .timeline-item:nth-child(odd) {
     flex-direction: row-reverse;
+    text-align: end;
+}
+
+.timeline-item:nth-child(even) {
+    text-align: start;
 }
 
 .timeline-icon {
@@ -471,8 +477,82 @@ body {
 .timeline-content {
     width: 45%;
     padding: 20px;
-    border-radius: 8px;
     position: relative;
+    top: 40px;
+}
+
+.timeline-span {
+    width: 30%;
+    padding: 20px;
+    position: relative;
+    top: 40px;
+}
+.timeline-span h3 {
+    font-size: 1.5rem;
+}
+
+.timeline-span-2 {
+    width: 30%;
+    padding: 20px;
+    position: relative;
+    top: 40px;
+}
+.timeline-span-2 h3 {
+    font-size: 1.5rem;
+}
+
+.timeline-span {
+    width: 30%;
+    position: relative;
+    top: 40px;
+}
+.timeline-span h3 {
+    font-size: 1.5rem;
+}
+
+.timeline-span {
+    width: 30%;
+    position: relative;
+    top: 40px;
+}
+.timeline-span h3 {
+    font-size: 1.5rem;
+}
+
+.timeline-span {
+    width: 30%;
+    position: relative;
+    top: 40px;
+}
+.timeline-span h3 {
+    font-size: 1.5rem;
+}
+
+.timeline-span {
+    width: 30%;
+    position: relative;
+    top: 40px;
+}
+.timeline-span h3 {
+    font-size: 1.5rem;
+}
+
+.timeline-span {
+    width: 30%;
+    position: relative;
+    top: 40px;
+}
+.timeline-span h3 {
+    font-size: 1.5rem;
+}
+
+.timeline-span {
+    width: 30%;
+    position: relative;
+    top: 40px;
+}
+.timeline-span h3 {
+    font-size: 1.5rem;
 }
 
 .timeline-content h3 {
@@ -483,11 +563,6 @@ body {
 .timeline-content p {
     font-size: 1rem;
     margin-bottom: 10px;
-}
-
-.timeline-content span {
-    font-size: 0.9rem;
-    color: #B18EC4;
 }
 
 @media (max-width: 768px) {
@@ -512,6 +587,16 @@ body {
     .timeline-content {
         width: 80%;
         margin-left: 40px;
+        text-align: center;
+    }
+    .timeline-span {
+        width: 100%;
+        text-align: center;
+    }
+    .timeline-span-2 {
+        text-align: center;
+        width: 100%;
+        left: 0;
     }
 }
 
